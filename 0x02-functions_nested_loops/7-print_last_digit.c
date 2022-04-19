@@ -8,7 +8,10 @@
  */
 int print_last_digit(int n)
 {
-	int num[] = n, ld, i = 0;
+	int num[], ld, i;
+
+	num[] = n;
+	i = 0;
 
 	while (num[i] != '\0')
 	{
