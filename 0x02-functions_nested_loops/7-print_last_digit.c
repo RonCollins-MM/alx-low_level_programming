@@ -8,16 +8,13 @@
  */
 int print_last_digit(int n)
 {
-	int num[], ld, i;
+	int ld;
 
-	num[] = n;
-	i = 0;
+	if (n < 0)
+		n = 0 - n
 
-	while (num[i] != '\0')
-	{
-		ld = num[i];
-		i++;
-	}
+	ld = ld % 10;
 	_putchar(ld);
+
 	return (0);
 }
