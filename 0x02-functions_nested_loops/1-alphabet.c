@@ -3,10 +3,8 @@
 /**
  *main - prints the letters of the alphabet in small caps
  *and then a newline.
- *
- *Return: 0 (Success)
  */
-int main(void)
+void print_alphabet(void)
 {
 	char alph;
 
@@ -16,5 +14,4 @@ int main(void)
 	}
 	_putchar('\n');
 
-	return (0);
 }
