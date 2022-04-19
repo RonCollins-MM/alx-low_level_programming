@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- *main - prints the letters of the alphabet in small caps
+ *print_alphabet - prints the letters of the alphabet in small caps
  *and then a newline.
  */
 void print_alphabet(void)
