@@ -8,7 +8,7 @@
  */
 char *_strchr(char *s, char c)
 {
-	char *frocc = '\0';
+	char *frocc = 0;
 	int i, strlength;
 
 	strlength = _strlen(s);
