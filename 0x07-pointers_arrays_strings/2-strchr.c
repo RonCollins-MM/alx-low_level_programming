@@ -9,7 +9,7 @@
 char *_strchr(char *s, char c)
 {
 	char *frocc = 0;
-	int i, strlength;
+	unsigned int i, strlength;
 
 	strlength = _strlen(s);
 	for (i = 0; i < strlength; i++)
@@ -29,10 +29,10 @@ char *_strchr(char *s, char c)
  *
  * Return: length of the string
  */
-int _strlen(char *s)
+unsigned int _strlen(char *s)
 {
-	int length = 0;
-	int i;
+	unsigned int length = 0;
+	unsigned int i;
 
 	for (i = 0; *(s + i) != '\0'; i++)
 	{
