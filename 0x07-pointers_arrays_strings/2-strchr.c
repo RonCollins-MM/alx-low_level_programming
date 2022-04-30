@@ -8,16 +8,12 @@
  */
 char *_strchr(char *s, char c)
 {
-	char *frocc = 0;
-	int i;
-
-	for (i = 0; *(s + i) != '\0'; i++)
+	for (; *s != '\0'; s++)
 	{
-		if (*(s + i) == c)
+		if (*s == c)
 		{
-			frocc = &s[i];
-			break;
+			return (s);
 		}
 	}
-	return (frocc);
+	return (0);
 }
