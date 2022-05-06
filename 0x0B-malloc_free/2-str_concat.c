@@ -62,7 +62,10 @@ int _strlen(char *s)
 	int length = 0;
 	int i;
 
-	for (i = 0; *(s + i) != '\0'; i++)
+	if (!s)
+		return (0);
+
+	for (i = 0; *(s + i) != '\0' ; i++)
 	{
 		length += 1;
 	}
