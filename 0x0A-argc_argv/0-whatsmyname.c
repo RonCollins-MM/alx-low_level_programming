@@ -3,8 +3,8 @@
 
 /**
  * main - prints the name of the program
- * @argc - A count of the parameters passed in terminal
- * @argv - The string value of the parameters passed
+ * @argc: A count of the parameters passed in terminal
+ * @argv: The string value of the parameters passed
  *
  * Return: 0 (Always success)
  */
