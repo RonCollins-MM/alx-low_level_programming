@@ -14,6 +14,5 @@ void *malloc_checked(unsigned int b)
 	dmem = malloc(b);
 	if (dmem == NULL)
 		exit(98);
-
 	return (dmem);
 }
