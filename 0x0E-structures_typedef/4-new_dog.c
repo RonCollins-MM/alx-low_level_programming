@@ -28,7 +28,7 @@ dog_t *new_dog(char *name, float age, char *owner)
 		free(pup);
 		return (NULL);
 	}
-	
+
 	lowner = strcopy(owner);
 	if (lowner == NULL)
 	{
