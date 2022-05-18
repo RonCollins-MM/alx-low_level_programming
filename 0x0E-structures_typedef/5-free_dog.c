@@ -1,0 +1,15 @@
+#include "dog.h"
+#include <stdio.h>
+/**
+ * free_dog - Frees memory of struct dog
+ * @t: the Struct to be freed
+ */
+void free_dog(dog_t *d)
+{
+	if(d)
+	{
+		free(d->owner);
+		free(d->name);
+		free(d);
+	}
+}
