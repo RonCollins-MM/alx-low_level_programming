@@ -21,5 +21,7 @@ typedef struct dog dog_t;
 void init_dog(struct dog *, char *, float, char *);
 void print_dog(struct dog *);
 void free_dog(dog_t *);
+dog_t *new_dog(char *, float, char *);
+char *strcopy(char *src);
 
 #endif
